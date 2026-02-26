@@ -13,7 +13,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 # ==========================================================
 # ОБЩИЕ НАСТРОЙКИ
 # ==========================================================
-BOT_TOKEN = "8087665173:AAGd1zxNGNq-TQ5aMAFiG7Ds2Nx0-BFzBfg"
+BOT_TOKEN = "8087665173:AAGOGdWuyD4PvOVuob_CVD2Pv5qu4W6pNSc"
 CHANNEL_CHAT_ID = "@hrm_quiz"  # канал (или -100... для приватного)
 
 if not BOT_TOKEN:
@@ -296,3 +296,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
