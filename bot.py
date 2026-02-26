@@ -131,7 +131,7 @@ def convert_options(q: dict):
 
 async def job_post_quiz(context: ContextTypes.DEFAULT_TYPE):
     """Автопостинг теста (quiz-poll) в канал. Поддерживает оба формата вопросов."""
-       q = pick_next_question()
+    q = pick_next_question()
 
 
     # Вопрос может быть в поле q или question
@@ -296,5 +296,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
